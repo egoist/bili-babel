@@ -9,7 +9,8 @@ module.exports = function (options) {
       require.resolve('babel-preset-stage-2')
     ],
     plugins: [
-      require.resolve('babel-plugin-external-helpers')
-    ]
+      require.resolve('babel-plugin-transform-runtime')
+    ],
+    runtimeHelpers: true
   }, options.babel))
 }
