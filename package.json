@@ -1,6 +1,6 @@
 {
   "name": "bili-babel",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Babel plugin for Bili.",
   "license": "MIT",
   "repository": "egoist/bili-babel",
