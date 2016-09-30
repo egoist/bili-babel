@@ -1,0 +1,38 @@
+{
+  "name": "bili-babel",
+  "version": "0.0.0",
+  "description": "Babel plugin for Bili.",
+  "license": "MIT",
+  "repository": "egoist/bili-babel",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "eslint *.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-egoist": "latest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "eslintConfig": {
+    "extends": "egoist/esnext"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-2": "^6.16.0"
+  }
+}
