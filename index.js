@@ -7,6 +7,9 @@ module.exports = function (options) {
     presets: [
       [require.resolve('babel-preset-es2015'), {modules: false}],
       require.resolve('babel-preset-stage-2')
+    ],
+    plugins: [
+      require.resolve('babel-plugin-external-helpers')
     ]
   }, options.babel))
 }
